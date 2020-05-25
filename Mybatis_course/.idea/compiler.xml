@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch04-param" />
+        <module name="Mybatis02" />
+        <module name="Mybatis01" />
+        <module name="Mybatis03_daili" />
+        <module name="ch05-return-result" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch04-param" target="1.8" />
+      <module name="ch05-return-result" target="1.8" />
+      <module name="Mybatis01" target="12" />
+      <module name="Mybatis02" target="12" />
+      <module name="Mybatis03_daili" target="12" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
